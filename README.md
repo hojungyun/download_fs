@@ -3,10 +3,10 @@ download_fs.rb [<options>]
 
 Examples:
 
-    download_fs.rb -u http://example.com/temp
-    download_fs.rb -u http://example.com/temp/
-    download_fs.rb -u http://example.com/temp/list.htm
-    download_fs.rb -u http://example.com/temp -d download -c 3 -t pdf,txt
+    download_fs.rb -u http://domain.com/file
+    download_fs.rb -u http://domain.com/file/
+    download_fs.rb -u http://domain.com/file/list.htm
+    download_fs.rb -u http://domain.com/file -d download -c 3 -t pdf,txt
 
 Options:
 

@@ -37,10 +37,10 @@ opt_parser = OptionParser.new do |opt|
   opt.separator "     #{File.basename($0)} [<options>]"
   opt.separator ""
   opt.separator "Examples:"
-  opt.separator "     #{File.basename($0)} -u http://example.com/temp"
-  opt.separator "     #{File.basename($0)} -u http://example.com/temp/"
-  opt.separator "     #{File.basename($0)} -u http://example.com/temp/list.htm"
-  opt.separator "     #{File.basename($0)} -u http://example.com/temp -d download -c 3 -t pdf,txt"
+  opt.separator "     #{File.basename($0)} -u http://domain.com/file"
+  opt.separator "     #{File.basename($0)} -u http://domain.com/file/"
+  opt.separator "     #{File.basename($0)} -u http://domain.com/file/list.htm"
+  opt.separator "     #{File.basename($0)} -u http://domain.com/file -d download -c 3 -t pdf,txt"
   opt.separator ""
   opt.separator "Options"
 
@@ -168,9 +168,9 @@ gem install parallel
 gem install chronic_duration
 
 3. usage
-./download_fs.rb -u http://example.com/temp
-./download_fs.rb -u http://example.com/temp/
-./download_fs.rb -u http://example.com/temp -d download -c 3 -t pdf,txt
+./download_fs.rb -u http://domain.com/file
+./download_fs.rb -u http://domain.com/file/
+./download_fs.rb -u http://domain.com/file -d download -c 3 -t pdf,txt
 
 ###########
 # Windows
@@ -185,7 +185,7 @@ gem install parallel
 gem install chronic_duration
 
 3. usage
-download_fs.rb -u http://example.com/temp
-download_fs.rb -u http://example.com/temp/
-download_fs.rb -u http://example.com/temp -d download -c 3 -t pdf,txt
+download_fs.rb -u http://domain.com/file
+download_fs.rb -u http://domain.com/file/
+download_fs.rb -u http://domain.com/file -d download -c 3 -t pdf,txt
 
