@@ -1,5 +1,5 @@
 ## Usage:
-download_fs.rb -u <uri> [options]
+download_fs.rb -u \<uri> [options]
 
 Examples:
 
